@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb","prettier"],
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "rules": {
+        "implicit-arrow-linebreak": "off",
+        "comma-dangle": "off",
+        "operator-linebreak": "off",
+        "arrow-body-style": "off",
+        "linebreak-style": "off"
+      }
+    }
+  ]
+}
